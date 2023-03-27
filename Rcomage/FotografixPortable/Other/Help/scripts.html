@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Using scripts to automate tasks</title>
+<link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+
+<h1>Using scripts to automate tasks</h1>
+
+<p>Scripts in Fotografix are a sequence of commands that can be used to automate frequent tasks. Almost all commands available through menus can be executed automatically by using a script.</p>
+
+<h2>Running a script</h2>
+<p>The <em>scripts palette</em> on the right hand side of the Fotografix window lists all available scripts. To run a script, simply double-click its name. Some scripts may work on a selected region of an image. (usually indicated in the name) In such cases, first select a region of the image before running the script.</p>
+
+<h2>Creating custom scripts</h2>
+<p>A Fotografix script is simply a text file containing a sequence of commands to be executed, one per line. Lines starting with a ; (semicolon) are treated as comments. To use a script in Fotografix, save your script with a <em>.fgs</em> extension inside the <em>Scripts</em> folder. For a list of all supported commands, see <a href="script_commands.html">Scripting commands</a>.</p>
+
+<h2>Script parameters</h2>
+<p>Any script command that takes a number as a parameter can optionally be suffixed with one of the following letters to multiply it with that value.</p>
+<table>
+<tr><th>Suffix</th><th>Description</th></tr>
+<tr><td>w</td><td>Width of the active layer</td></tr>
+<tr><td>h</td><td>Height of the active layer</td></tr>
+<tr><td>W</td><td>Width of the image</td></tr>
+<tr><td>H</td><td>Height of the image</td></tr>
+</table>
+<p>For example, the parameter <code>0.1W</code> will evaluate to 10% of the image width.</p>
+
+<h2>Sample script - sepia tone</h2>
+<p>The following is a sample script (provided along with Fotografix as <em>Default Scripts\Sepia Tone.fgs</em>) that gives a sepia tone to the image:</p>
+<pre class="code">
+Desaturate
+ColourBalance 100 25 0
+</pre>
+<p>The above script works by first converting the image to grayscale and then adjusting the colour balance to impart a sepia tone. Due to the nature of the commands used in the script, it works both with and without a selection.</p>
+
+</body>
+
+</html>

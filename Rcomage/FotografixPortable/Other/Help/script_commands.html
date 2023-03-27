@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Scripting commands</title>
+<link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+
+<h1>Scripting commands</h1>
+
+<p>The following is an alphabetical list of all scripting commands supported by Fotografix, along with their parameters (if any) and menu equivalent. Command names are case-sensitive and do not contain any spaces. Words in <strong>bold</strong> are parameters; acceptable values for these are listed in the <em>Parameters</em> column.</p>
+
+<table>
+<tr><th width="25%">Command</th><th width="25%">Parameters</th><th width="50%">Menu equivalent / description</th></tr>
+<tr><td>AddLayerMask</td><td><em>None</em></td><td>Layer &gt; Add Layer Mask</td></tr>
+<tr><td>AddNoise <strong>amount</strong></td><td><strong>amount</strong> = <em>number</em> (0 to 100)</td><td>Filter &gt; Miscellaneous &gt; Add Noise</td></tr>
+<tr><td>BlackWhite <strong>red</strong> <strong>green</strong> <strong>blue</strong></td><td><strong>red</strong>, <strong>green</strong>, <strong>blue</strong> = <em>number</em> (0 to 100)</td><td>Adjustments &gt; Black &amp; White</td></tr>
+<tr><td>Blur <strong>radius</strong></td><td><strong>radius</strong> = <em>number</em></td><td>Filter &gt; Blur &gt; Blur</td></tr>
+<tr><td>BrightnessContrast <strong>brightness</strong> <strong>contrast</strong></td><td><strong>brightness</strong>, <strong>contrast</strong> = <em>number</em> (-255 to 255)</td><td>Adjustments &gt; Brightness/Contrast</td></tr>
+<tr><td>Clear</td><td><em>None</em></td><td>Edit &gt; Clear</td></tr>
+<tr><td>ColourBalance <strong>red</strong> <strong>green</strong> <strong>blue</strong></td><td><strong>red</strong>, <strong>green</strong>, <strong>blue</strong> = <em>number</em> (-255 to 255)</td><td>Adjustments &gt; Colour Balance</td></tr>
+<tr><td>Copy</td><td><em>None</em></td><td>Edit &gt; Copy</td></tr>
+<tr><td>Cut</td><td><em>None</em></td><td>Edit &gt; Cut</td></tr>
+<tr><td>DeleteLayer</td><td><em>None</em></td><td>Layer &gt; Delete Layer</td></tr>
+<tr><td>Desaturate</td><td><em>None</em></td><td>Adjustments &gt; Desaturate</td></tr>
+<tr><td>Deselect</td><td><em>None</em></td><td>Select &gt; Deselect</td></tr>
+<tr><td>Diffuse</td><td><em>None</em></td><td>Filter &gt; Stylize &gt; Diffuse</td></tr>
+<tr><td>DuplicateLayer</td><td><em>None</em></td><td>Layer &gt; Duplicate Layer</td></tr>
+<tr><td>EdgesAll</td><td><em>None</em></td><td>Filter &gt; Find Edges &gt; All</td></tr>
+<tr><td>EdgesHorz</td><td><em>None</em></td><td>Filter &gt; Find Edges &gt; Horizontal</td></tr>
+<tr><td>EdgesVert</td><td><em>None</em></td><td>Filter &gt; Find Edges &gt; Vertical</td></tr>
+<tr><td>EdgesDiag</td><td><em>None</em></td><td>Filter &gt; Find Edges &gt; Diagonal</td></tr>
+<tr><td>Emboss</td><td><em>None</em></td><td>Filter &gt; Stylize &gt; Emboss</td></tr>
+<tr><td>FillFG</td><td><em>None</em></td><td><em>No menu equivalent</em> (Fills the selected region with the foreground colour)</td></tr>
+<tr><td>FillBG</td><td><em>None</em></td><td><em>No menu equivalent</em> (Fills the selected region with the background colour)</td></tr>
+<tr><td>FlipH</td><td><em>None</em></td><td>Image &gt; Flip &gt; Horizontal</td></tr>
+<tr><td>FlipV</td><td><em>None</em></td><td>Image &gt; Flip &gt; Vertical</td></tr>
+<tr><td>GradientMap</td><td><em>None</em></td><td>Adjustments &gt; Gradient Map</td></tr>
+<tr><td>Halftone <strong>radius</strong></td><td><strong>radius</strong> = <em>number</em> (1 to 100)</td><td>Filter &gt; Miscellaneous &gt; Halftone</td></tr>
+<tr><td>HideLayer</td><td><em>None</em></td><td><em>No menu equivalent</em> (Makes the active layer hidden)</td></tr>
+<tr><td>Invert</td><td><em>None</em></td><td>Adjustments &gt; Invert</td></tr>
+<tr><td>Levels <strong>shadows</strong> <strong>midtones</strong> <strong>highlights</strong></td><td><strong>shadows</strong>, <strong>highlights</strong> = <em>number</em> (0 to 255)<br /><strong>midtones</strong> = <em>number</em> (75 to 125)</td><td>Adjustments &gt; Levels</td></tr>
+<tr><td>MotionBlur <strong>distance</strong></td><td><strong>distance</strong> = <em>number</em></td><td>Filter &gt; Blur &gt; Motion Blur</td></tr>
+<tr><td>MoveLayerDown</td><td><em>None</em></td><td><em>No menu equivalent</em> (Moves the active layer down in the layer stack)</td></tr>
+<tr><td>MoveLayerUp</td><td><em>None</em></td><td><em>No menu equivalent</em> (Moves the active layer up in the layer stack)</td></tr>
+<tr><td>NewLayer</td><td><em>None</em></td><td>Layer &gt; New &gt; Layer</td></tr>
+<tr><td>NewLayerCopy</td><td><em>None</em></td><td>Layer &gt; New &gt; Layer via Copy</td></tr>
+<tr><td>NewLayerCut</td><td><em>None</em></td><td>Layer &gt; New &gt; Layer via Cut</td></tr>
+<tr><td>NightVision</td><td><em>None</em></td><td>Filter &gt; Stylize &gt; Night Vision</td></tr>
+<tr><td>Offset <strong>x</strong> <strong>y</strong></td><td><strong>x</strong>, <strong>y</strong> = <em>number</em></td><td>Filter &gt; Miscellaneous &gt; Offset</td></tr>
+<tr><td>Paste</td><td><em>None</em></td><td>Edit &gt; Paste</td></tr>
+<tr><td>Pixelate <strong>level</strong></td><td><strong>level</strong> = <em>number</em> (1 to 31)</td><td>Filter &gt; Miscellaneous &gt; Pixelate</td></tr>
+<tr><td>Posterize <strong>levels</strong></td><td><strong>levels</strong> = <em>number</em> (3 to 7)</td><td>Adjustments &gt; Posterize</td></tr>
+<tr><td>RasterizeLayer</td><td><em>None</em></td><td>Layer &gt; Rasterize Layer</td></tr>
+<tr><td>RemoveLayerMask:Apply<br />RemoveLayerMask:Discard</td><td><em>None</em></td><td>Layer &gt; Remove Layer Mask</td></tr>
+<tr><td>RevealAll</td><td><em>None</em></td><td>Image &gt; Reveal All</td></tr>
+<tr><td>SelectAll</td><td><em>None</em></td><td>Select &gt; All</td></tr>
+<tr><td>SelectContract <strong>distance</strong></td><td><strong>distance</strong> = <em>number</em></td><td>Select &gt; Modify &gt; Contract</td></tr>
+<tr><td>SelectEllipse <strong>x1</strong> <strong>y1</strong> <strong>x2</strong> <strong>y2</strong><br/>SelectEllipse:Add <strong>x1</strong> <strong>y1</strong> <strong>x2</strong> <strong>y2</strong><br/>SelectEllipse:Subtract <strong>x1</strong> <strong>y1</strong> <strong>x2</strong> <strong>y2</strong></td><td><strong>(x1, y1) - (x2, y2)</strong> = <em>numbers (bounding rectangle)</em></td><td><em>No menu equivalent</em> (Equivalent to the <strong>Elliptical Marquee</strong> tool)</td></tr>
+<tr><td>SelectExpand <strong>distance</strong></td><td><strong>distance</strong> = <em>number</em></td><td>Select &gt; Modify &gt; Expand</td></tr>
+<tr><td>SelectFeather <strong>radius</strong></td><td><strong>radius</strong> = <em>number</em></td><td>Select &gt; Modify &gt; Feather</td></tr>
+<tr><td>SelectInverse</td><td><em>None</em></td><td>Select &gt; Inverse</td></tr>
+<tr><td>SelectRectangle <strong>x1</strong> <strong>y1</strong> <strong>x2</strong> <strong>y2</strong><br/>SelectRectangle:Add <strong>x1</strong> <strong>y1</strong> <strong>x2</strong> <strong>y2</strong><br/>SelectRectangle:Subtract <strong>x1</strong> <strong>y1</strong> <strong>x2</strong> <strong>y2</strong></td><td><strong>(x1, y1) - (x2, y2)</strong> = <em>numbers (bounding rectangle)</em></td><td><em>No menu equivalent</em> (Equivalent to the <strong>Rectangular Marquee</strong> tool)</td></tr>
+<tr><td>SelectTransparency</td><td><em>None</em></td><td>Select &gt; Layer Transparency</td></tr>
+<tr><td>SetLayerOpacity <strong>opacity</strong></td><td><strong>opacity</strong> = <em>number</em> (0 to 100)</td><td></td></tr>
+<tr><td>Sharpen</td><td><em>None</em></td><td>Filter &gt; Sharpen &gt; Sharpen</td></tr>
+<tr><td>ShowLayer</td><td><em>None</em></td><td><em>No menu equivalent</em> (Makes the active layer visible)</td></tr>
+<tr><td>Solarize</td><td><em>None</em></td><td>Filter &gt; Stylize &gt; Solarize</td></tr>
+<tr><td>Threshold <strong>threshold</strong></td><td><strong>threshold</strong> = <em>number</em> (0 to 255)</td><td>Adjustments &gt; Threshold</td></tr>
+<tr><td>UnsharpMask <strong>amount</strong></td><td><strong>amount</strong> = <em>number</em> (1 to 100)</td><td>Filter &gt; Sharpen &gt; Unsharp Mask</td></tr>
+</table>
+
+</body>
+
+</html>
